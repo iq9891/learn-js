@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript 装饰图片</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- 2 小时 no.1 -->
+  <!-- 0.5 小时 no.2 -->
+  <h2>通过 <span id="hl" class='hl'>JavaScript</span> 装饰图片</h2>
+
+  <div class="controls">
+    <label for="spacing">内边距:</label>
+    <input id="spacing" type="range" name="spacing" min="10" max="200" value="10" data-sizing="px">
+
+    <label for="blur">模糊:</label>
+    <input id="blur" type="range" name="blur" min="0" max="25" value="10" data-sizing="px">
+
+    <label for="base">基础颜色</label>
+    <input id="base" type="color" name="base" value="#ffc600">
+  </div>
+
+  <img id="img" src="https://source.unsplash.com/7bwQXzbF6KE/800x500">
+
+  <script src="script.js"></script>
+
+</body>
+</html>
