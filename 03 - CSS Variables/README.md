@@ -10,6 +10,7 @@
 ├── script.js                    # 写 JavaScript 的地方
 └── style.css                    # 写 CSS 的地方
 ```
+
 ## 功能
 1. 改变内边距
 2. 改变模糊程度

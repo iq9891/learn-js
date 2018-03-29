@@ -12,6 +12,7 @@
 ├── script.js                    # 写 JavaScript 的地方
 └── style.css                    # 写 CSS 的地方
 ```
+
 ## 功能
 1. 按下按钮对应的键盘按键(A|S|D|F|G|H|J|K|L)，**播放音乐**
 2. 按下按钮对应的键盘按键(A|S|D|F|G|H|J|K|L)，高亮对应的 `class` 为 `playing` **按钮高亮显示**
